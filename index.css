@@ -1,0 +1,181 @@
+@font-face {
+  /*font-family: 'Ara Hamah Alislam Regular';
+  font-style: normal;
+  src: url("https://www.sk-my-portfolio.com/website/fonts/Ara Hamah Alislam Regular/Ara_Hamah_Alislam_Regular.otf") format("opentype");*/
+  font-family: 'D-DIN';
+  src: url("https://www.sk-my-portfolio.com/website/fonts/d-din/D-DINExp.woff") format('Webfont');
+} 
+
+* {
+  font-family: 'D-DIN', sans-serif;
+  font-style: Expanded;
+}
+
+/* #header {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #23547b;
+  color: white;
+}
+
+#menu_button {
+  font-size: 3vw;
+  float: right;
+  margin: 30px;
+}
+
+#menu_button:hover {
+  color: #fad441;
+}
+
+#menu{
+  display: none;
+  margin: 25px;
+  font-size: 3vw;
+  position: relative;
+  left: 0;
+} */
+
+.header_element {
+  text-decoration: none;
+  color: white;
+}
+
+.switch_language {
+  font-size: 3vw;
+  color: white;
+  text-decoration: none;
+  margin-right: 25px;
+}
+
+.icon {
+  margin: 10px;
+  width: 8%;
+  height: 8%;
+  align-items: center;
+  display: flex;
+  position: relative;
+  right: 0;
+}
+
+.welcome {
+  /* /* padding-top: 5%; */
+  padding-bottom: 10%; 
+  background-color: #23547b;
+  text-align: center;
+  color: white;
+}
+/* 
+.welcome_title {
+  font-size: 15vw;
+}
+
+.welcome_message {
+  /* 横幅に合わせて拡大縮小 vw */
+  /* font-size: 3vw;  */
+  /* width: 100%; */
+/* } */ 
+
+.body_intro {
+  display: inline-block;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}
+
+.intro_text {
+  margin-top: 20vw;
+  font-size: 45vw;
+  position: relative;
+  margin-left: -1px;
+}
+
+.intro_name {
+  font-size: 8vw;
+  font-weight: bold;
+  text-align: right;
+  opacity: 0;
+}
+
+.intro_description {
+  font-size: 3vw;
+  text-align: right;
+  opacity: 0;
+}
+
+/* .square {
+  height: 100px;
+  width: 100px;
+  /* color:  #fad441; 
+  display: block;
+} */
+
+.intro_img {
+  height: auto;
+  width: 50vw;
+  float: right;
+  clear: both;
+}
+
+/* ----------------- */
+
+.About {
+  padding: 5%;
+}
+
+.About_Title {
+  font-size: 8vw;
+}
+
+.About_p {
+  font-size: 4vw;
+  text-align: center;
+}
+
+/* ----------------- */
+
+.my_works {
+  padding: 20%;
+  text-align: center;
+}
+
+.title_myWorks{
+  font-size: 10vw;
+}
+
+.p_myWorks {
+  font-size: 4vw;
+}
+
+.link_myWorks {
+  font-size: 4vw;
+  text-decoration: none;
+  color: black;
+}
+.link_myWorks:hover {
+  color:#fad441;
+}
+
+.footer {
+  background-color: #23547b;
+  display: flex;
+  width: 100%;
+  padding: 10%;
+}
+
+.icon_footer {
+  display: block;
+  margin-left: auto;
+  margin-right: 0px;
+  width: 10%;
+  height: auto;
+}
+.icon_footer2 {
+  display: block;
+  margin-left: 10px;
+  margin-right: auto;
+  width: 10%;
+  height: auto;
+}
